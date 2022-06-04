@@ -1,0 +1,51 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FBB13C;
+
+}
+
+#main-content {
+    display: flex;
+    gap: 1rem;
+}
+
+.sidebar {
+
+    padding: 1rem;
+    background-color: #218380;
+    color: #FBB13C
+}
+
+.option-button {
+    text-align: right;
+    border-bottom: solid 1px #FBB13C;
+}
+
+.option-button :hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+
+button {
+    cursor: pointer;
+    border: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-right: 0;
+    background-color: #218380;
+    color: #FBB13C;
+    font-size: 1.5rem;
+}
+
+#grid-container {
+    width: 45vw;
+    height: 45vw;
+    display: grid;
+    background-color: #fff;
+    cursor: url("./images/pencil.png"), auto;
+}
